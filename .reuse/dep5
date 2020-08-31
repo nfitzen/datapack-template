@@ -1,0 +1,63 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Datapack Template
+Upstream-Contact: Nathaniel Fitzenrider <https://github.com/nfitzen>
+Source: https://github.com/nfitzen/datapack-template
+License: CC0-1.0
+Comment: Make sure to check this file & update copyrights!
+
+# Sample paragraph, commented out:
+#
+# Files: data/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: MIT
+
+# Add items to `Copyright` depending on your reused code/libs
+Files: data/minecraft/tags/functions/*
+Copyright: $YEAR $NAME <$CONTACT>
+License: MIT
+Comment: shared files between datapacks
+
+# Libraries, bundled and unbundled
+
+# Lantern
+
+Files: data/load/*
+Copyright: Lantern Contributors
+License: CC0-1.0
+
+Files: lib/Lantern/*
+Copyright: 2019 Lantern Contributors
+License: MIT
+
+Files: data/lantern.*/*
+Copyright: 2019 Lantern Contributors
+License: MIT
+
+Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
+Copyright: 2019 Lantern Contributors
+License: MIT
+
+# AESTD
+
+Files: lib/AESTD/*
+Copyright: 2020 Aeldrion
+License: MIT
+
+Files: data/aestd.*/*
+Copyright: 2020 Aeldrion
+License: MIT
+
+Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
+Copyright: 2020 Aeldrion
+License: MIT
+Comment: Doesn't apply if using Lantern; comment out/delete if so.
+
+# Minecraft Phi
+
+Files: lib/MinecraftPhi-modules/*
+Copyright: 2018 Phi contributors
+License: MIT
+
+Files: data/phi.*
+Copyright: 2018 Phi contributors
+License: MIT
