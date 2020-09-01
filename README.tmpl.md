@@ -17,4 +17,5 @@ Copyright (C) \<year\> \<copyright holders\>
 This datapack is licensed under the [Expat/MIT License](LICENSE)
 
 More copyright and licensing information can be found
-in [the dep5 file](.reuse/dep5).
+in individual files and in [the dep5 file](.reuse/dep5) if an SPDX header isn't
+found.

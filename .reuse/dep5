@@ -11,6 +11,12 @@ Comment: Make sure to check this file & update copyrights!
 # Copyright: $YEAR $NAME <$CONTACT>
 # License: MIT
 
+# Blanket copyright just in case JSON files exist.
+# Scroll past the libraries section to apply exceptions to them.
+Files: data/*
+Copyright: $YEAR $NAME <$CONTACT>
+License: MIT
+
 # Add items to `Copyright` depending on your reused code/libs
 Files: data/minecraft/tags/functions/*
 Copyright: $YEAR $NAME <$CONTACT>
@@ -18,18 +24,17 @@ License: MIT
 Comment: shared files between datapacks
 
 # Libraries, bundled and unbundled
+# Add your own copyright if using function tags from any of these.
+# or, if using a different license, put a different paragraph later on down.
 
 # Lantern
 
+# Individual Load files go in individual .license files
 Files: data/load/*
 Copyright: Lantern Contributors
 License: CC0-1.0
 
-Files: lib/Lantern/*
-Copyright: 2019 Lantern Contributors
-License: MIT
-
-Files: data/lantern.*/*
+Files: libs/Lantern/* data/lantern.*/*
 Copyright: 2019 Lantern Contributors
 License: MIT
 
@@ -39,11 +44,7 @@ License: MIT
 
 # AESTD
 
-Files: lib/AESTD/*
-Copyright: 2020 Aeldrion
-License: MIT
-
-Files: data/aestd.*/*
+Files: libs/AESTD/* data/aestd.*/*
 Copyright: 2020 Aeldrion
 License: MIT
 
@@ -54,10 +55,10 @@ Comment: Doesn't apply if using Lantern; comment out/delete if so.
 
 # Minecraft Phi
 
-Files: lib/MinecraftPhi-modules/*
+Files: libs/MinecraftPhi-modules/*
 Copyright: 2018 Phi contributors
 License: MIT
 
-Files: data/phi.*
+Files: data/phi.*/*
 Copyright: 2018 Phi contributors
 License: MIT
