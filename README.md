@@ -20,5 +20,5 @@
 Copyright (C) 2020 Nathaniel Fitzenrider
 
 This template is licensed under [CC0-1.0](LICENSE),
-with the exception of portions of the [.gitignore](.gitignore) file,
+with the exception of a portion of the [.gitignore](.gitignore) file,
 which is licensed under the [Expat/MIT License](LICENSES/MIT.txt).

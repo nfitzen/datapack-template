@@ -11,18 +11,18 @@
 /.build/
 /releases/
 
-# AESTD (uncomment if bundling)
+# AESTD (comment if bundling)
 
-# data/aestd.*/
-#
-# data/aestd1/*
-# !data/aestd1/tags/
-# data/aestd1/tags/*
-# !data/aestd1/tags/functions/
+data/aestd.*/
 
-# AESTD or Lantern (again, uncomment if bundling within src)
+data/aestd1/*
+!data/aestd1/tags/
+data/aestd1/tags/*
+!data/aestd1/tags/functions/
 
-# data/minecraft/loot_tables/blocks/yellow_shulker_box.json
+# AESTD or Lantern (again, comment if bundling within src)
+
+data/minecraft/loot_tables/blocks/yellow_shulker_box.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,macos,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,windows,macos,linux
