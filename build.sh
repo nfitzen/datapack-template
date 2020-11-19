@@ -3,9 +3,11 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
+# Replace PACK_NAME with the file-safe name of the pack
 PACK_NAME="datapack-template"
 
-version=$(git describe --tags --dirty)
+# Optionally replace version, or let Git do it for you.
+version=$(git describe --tags --dirty --always)
 
 if command -v zip; then
     ZIP="zip -r";
