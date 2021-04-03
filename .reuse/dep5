@@ -2,7 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Datapack Template
 Upstream-Contact: Nathaniel Fitzenrider <https://github.com/nfitzen>
 Source: https://github.com/nfitzen/datapack-template
-License: CC0-1.0
+License: CC0-1.0 AND MIT
 Comment: Make sure to check this file & update copyrights!
 
 # Sample paragraph, commented out:
@@ -31,8 +31,8 @@ Comment: shared files between datapacks
 
 # Individual Load files go in individual .license files
 Files: data/load/*
-Copyright: Lantern Contributors
-License: CC0-1.0
+Copyright: 2019 Lantern Contributors
+License: MIT
 
 Files: libs/Lantern/* data/lantern.*/*
 Copyright: 2019 Lantern Contributors
@@ -42,15 +42,22 @@ Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
 Copyright: 2019 Lantern Contributors
 License: MIT
 
+# Lantern Load
+
+# Comment out if not using Lantern Load directly
+Files: data/load/*
+Copyright: 2020 Lue
+License: 0BSD
+
 # AESTD
 
 Files: libs/AESTD/* data/aestd.*/*
-Copyright: 2020 Aeldrion
-License: MIT
+Copyright: 2021 Ael
+License: 0BSD
 
 Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
-Copyright: 2020 Aeldrion
-License: MIT
+Copyright: 2021 Ael
+License: 0BSD
 Comment: Doesn't apply if using Lantern; comment out/delete if so.
 
 # Minecraft Phi

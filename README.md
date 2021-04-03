@@ -1,5 +1,5 @@
 <!--
-  ~ SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+  ~ SPDX-FileCopyrightText: 2020-2021 Nathaniel Fitzenrider <https://github.com/nfitzen>
   ~
   ~ SPDX-License-Identifier: CC0-1.0
  -->
@@ -17,8 +17,10 @@
 
 ## Copyright
 
-Copyright (C) 2020 Nathaniel Fitzenrider
+Copyright (C) 2020-2021 Nathaniel Fitzenrider
 
-This template is licensed under [CC0-1.0](LICENSE),
+This template is licensed under [CC0 1.0](LICENSE),
 with the exception of a portion of the [.gitignore](.gitignore) file,
-which is licensed under the [Expat/MIT License](LICENSES/MIT.txt).
+which is licensed under the [Expat/MIT License](LICENSES/MIT.txt) and CC0 1.0.
+
+[CC0 1.0]: https://creativecommons.org/publicdomain/zero/1.0/ "CC0 1.0 Universal Public Domain Dedication"
