@@ -1,8 +1,5 @@
-<!--
-  ~ SPDX-FileCopyrightText: 2020-2021 Nathaniel Fitzenrider <https://github.com/nfitzen>
-  ~
-  ~ SPDX-License-Identifier: CC0-1.0
- -->
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!-- SPDX-FileCopyrightText: 2020-2021 nfitzen <https://github.com/nfitzen> -->
 
 # \<name\>
 
