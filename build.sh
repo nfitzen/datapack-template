@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
-#
 # SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2020, 2022 nfitzen <https://github.com/nfitzen>
 
 # Replace PACK_NAME with the file-safe name of the pack
 PACK_NAME="datapack-template"
@@ -18,7 +17,10 @@ fi
 rm -r .build/
 mkdir .build releases .build/files
 
-cp -r data/ ./pack.mcmeta .build/files/
+cp -r data/ .build/files/
+
+# handle mcmeta specifically for version replacement
+<pack.mcmeta version=$version envsubst > .build/files/pack.mcmeta
 
 cp -r .reuse/ LICENSE LICENSES/ README.md .build/files
 
@@ -38,8 +40,7 @@ cp -r libs/AESTD/data/minecraft/loot_tables/ files/data/minecraft/
 cd files/
 
 # a hacky workaround since `>` overwrites the file before it's read
-(version=$version envsubst < ./pack.mcmeta) > ./pack.mcmeta.tmp && \
-    mv ./pack.mcmeta.tmp ./pack.mcmeta
+(<pack.mcmeta envsubst) > ./pack.mcmeta
 
 rm ../../releases/$PACK_NAME-$version.zip
 
